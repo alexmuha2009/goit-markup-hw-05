@@ -57,4 +57,13 @@
 <path fill="#f4f4fd" style="fill: var(--color3, #f4f4fd)" d="M26.524 7.458c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
 </symbol>
 </defs>
+<symbol id="icon-checkbox" viewBox="0 0 16 16">
+    <path d="M13.25 3.5L6.15 10.6L2.75 7.2L1.5 8.45L6.15 13.1L14.5 4.75L13.25 3.5Z"/>
+  </symbol>
+  <symbol id="icon-close" viewBox="0 0 8 8">
+    <path d="M8 0.8L7.2 0L4 3.2L0.8 0L0 0.8L3.2 4L0 7.2L0.8 8L4 4.8L7.2 8L8 7.2L4.8 4L8 0.8Z"/>
+  </symbol>
+  <symbol id="icon-send" viewBox="0 0 24 24">
+  <path d="M22 2L11 13M22 2L15 22L11 13M11 13L2 9L22 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</symbol>
 </svg>
