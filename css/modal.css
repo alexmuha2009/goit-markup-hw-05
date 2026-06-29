@@ -146,3 +146,46 @@
 .submit-btn:focus {
   background-color: #404bbf;
 }
+.modal-close-btn {
+  border: 1px solid rgba(46, 47, 66, 0.4); /* Змінено колір рамки */
+}
+.modal-close-icon {
+  fill: #2e2f42; /* Базовий колір іконки */
+}
+.check-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.check-text a {
+  text-decoration: underline;
+  color: #4d5ae5;
+}
+.modal-field {
+  margin-bottom: 8px; /* Базовий відступ */
+}
+.modal-field:nth-child(4) { /* Це твоя textarea (Comment) */
+  margin-bottom: 16px; /* Вимога: відступ 16px */
+}
+.modal-field:nth-child(5) { /* Це твій чекбокс */
+  margin-bottom: 24px; /* Вимога: відступ 24px */
+}
+
+.comment-input::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+}
+.comment-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+.submit-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
