@@ -333,7 +333,7 @@
         </div>
     </footer>
             
- <div class="backdrop is-hidden" data-modal id="modal">
+<div class="backdrop" data-modal id="modal">
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close aria-label="close modal">
                 <svg class="modal-close-icon" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg>
@@ -398,9 +398,9 @@ refs.modal.addEventListener("click", (e) => {
 });
 
     function toggleModal() {
-        refs.modal.classList.toggle("is-hidden");
-    }
-
+    // Змінюємо is-hidden на is-open
+    refs.modal.classList.toggle("is-open");
+}
     const modalWindow = document.querySelector(".modal"); // Знайди саму форму
 
 modalWindow.addEventListener("click", (e) => {
